@@ -8,3 +8,7 @@ nytt JAO!
 
 ->Läst av "  "
 >>>>>>> origin/master
+
+
+
+Nytt stycke
