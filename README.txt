@@ -6,5 +6,6 @@ Hampus är en storrrrrrr tjockis:3
 
 nytt JAO!
 
+mer nytt JAO!
 ->Läst av "  "
 >>>>>>> origin/master
