@@ -33,23 +33,18 @@ html, body {
   margin-left: -60px !important;
 }
 @media (max-width: 600px) {
-  #progress-container {
+    #progress-container .line {
     width: 260px;
   }
 }
 #progress-container .line {
-  height: 1px;
   width: 1000px;
   border-bottom: 4px solid #8cc43d;
     position: absolute;
   margin-top: 25px;
   z-index: 1000;
 }
-@media (max-width: 600px) {
-  #progress-container .line {
-    width: 260px;
-  }
-}
+
 #progress-container ul {
   display: flex;
   width: 100%;
@@ -65,25 +60,16 @@ html, body {
   background: #f2f2f2;
   height: 50px;
   width: 50px;
-  border-radius: 50%;
+  border-radius: 100%;
   text-align: center;
   justify-content: center;
   align-items: center;
   font-weight: bold;
  /* color: #d4d4d4;*/
   font-size: 20px;
-    font-family: "FontAwesome";
   border: #8cc43d solid 4px;
   color: #8cc43d;
 }
-#progress-container li:before {
-  font-size: 12px;
-  position: absolute;
-  margin-top: 50px;
-  color: #666;
-  margin-right: 100px;
-}
-
 
 #progress-container li p {
   color: #000000;
