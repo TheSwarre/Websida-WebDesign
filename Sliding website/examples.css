@@ -213,5 +213,46 @@ p{
 }
 
 
+/* Cards*/
+
+#card {
+  position: relative;
+  border-radius: 3%;
+    margin-left: 20px;
+  width: 330px;
+  height: auto;
+  background-image: linear-gradient( 191deg , #4ac1ff, #795bb0 );
+  padding-bottom: 17px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+    opacity: 0.8
+}
+
+#image-container {
+  height: 175px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  margin: 0;
+  padding: 0;
+  background-image: url(http://static.giantbomb.com/uploads/square_small/12/120457/2060505-mel_gibson_look.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.txt-body {
+  padding: 5px 40px 20px 40px;
+}
+.txt-body p {
+  font-size: 15px;
+}
+.txt-body h1 {
+  text-align: center;
+    font-size: 23px;
+}
+
+/*-------------*/
+
+
 
 
