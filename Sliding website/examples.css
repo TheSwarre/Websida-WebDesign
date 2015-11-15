@@ -298,7 +298,7 @@ p{
 }
 #progress-container .line {
   width: 1530px;
-  border-bottom: 4px solid #8cc43d;
+  border-bottom: 4px solid #818181;
     position: absolute;
   margin-top: 25px;
   z-index: 1000;
@@ -316,7 +316,7 @@ p{
 #progress-container li {
   display: inline-flex;
   border: #191919 solid 4px;
-  background: rgb(22, 239, 89);
+  background: rgb(191, 191, 191);
   height: 50px;
   width: 50px;
   border-radius: 100%;
@@ -327,7 +327,7 @@ p{
  /* color: #d4d4d4;*/
   font-size: 20px;
   border: #ffffff solid 4px;
-  color: #8cc43d;
+  color: #ffffff;
 }
 
 #progress-container li p {
