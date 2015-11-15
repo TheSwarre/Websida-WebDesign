@@ -108,7 +108,7 @@ html.fp-enabled,
 
 /* This is the black dots */
 .fp-slidesNav{
-    position: absolute;
+    position: fixed;
     z-index: 4;
     left: 50%;
     opacity: 1;

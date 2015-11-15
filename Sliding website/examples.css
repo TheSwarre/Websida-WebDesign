@@ -232,7 +232,7 @@ p{
   -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #card#1 {
@@ -276,7 +276,7 @@ p{
 
 #progress-container {
   display: flex;
-  width: 1000px;
+  width: 81%;
   margin: auto;
 }
 #progress-container * {
@@ -297,7 +297,7 @@ p{
   }
 }
 #progress-container .line {
-  width: 1000px;
+  width: 1530px;
   border-bottom: 4px solid #8cc43d;
     position: absolute;
   margin-top: 25px;
@@ -338,3 +338,84 @@ p{
 
 
 
+
+
+
+
+
+/*---------------------------*/
+         /* FOOTER */
+/*
+
+#footerContainer{
+    opacity: 0;
+    width: 100%;
+    height: 160px;
+    position:absolute;
+    bottom: 0;
+    background-color: #2d3e46;
+    text-align: center;
+    margin: 0 px;
+    box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.75);
+    
+    transition: opacity .75s ease-in-out
+}
+
+#footerContainer:hover{
+    opacity: 1;
+}
+
+#footerContents{
+    width: 100%; 
+    padding: 1% 0px;
+    position: relative;
+    margin: 0 px;
+}
+
+#helloSize{
+    width:80%;
+    max-width:410px; 
+    display:inline-block;
+}
+
+#footerHello{
+    font-family:sans-serif;
+    font-weight: 300; 
+    color:#fff; 
+    background-color: #e59400;
+    padding: 1% 2.5%; 
+    display: block;
+    text-align: center;
+}
+
+#footerHello{
+    transition:color 0.2s linear; 
+    transition:background-color 0.2s linear;
+}
+
+#footerHello:hover{
+    color:#e59400; 
+    background-color: #fff;
+}
+
+#footerContainer #phoneNumbers{
+    font:26px 'Montserrat', sans-serif; 
+    color: #f1f1ea; 
+    margin-bottom: 0.5%; 
+    width:100%; 
+    display:inline-block;
+}
+
+#footerContainer #phoneNumbers a{
+    color: #f1f1ea;
+}
+
+#footerContainer p{
+    font:15px/25px 'Montserrat', sans-serif;
+    color: #f1f1ea; 
+    width: 80%;
+    max-width: 700px; 
+    margin: 0 auto;
+}
+
+---------------------------*/
