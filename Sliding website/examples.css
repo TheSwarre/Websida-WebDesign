@@ -3,11 +3,35 @@
 @CHARSET "ISO-8859-1";
 /* Reset CSS
  * --------------------------------------- */
-html{
- background-image: url("http://pre15.deviantart.net/1e48/th/pre/i/2015/314/3/2/arlo_and_spot_by_shoker_igor-d9g7ace.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+@font-face {
+    font-family: Bacon;
+    src: url(baron-neue.bold.otf);
 }
+@font-face {
+    font-family: Baconpig;
+    src: url(roboto.medium.ttf);
+}
+@font-face {
+    font-family: pigfood;
+    src: url(roboto.bold.ttf);
+}
+#rubrik{
+    color: black;
+    text-align: center;
+    font-family: Bacon !important;
+}
+
+
+html{
+ background-image: url("http://i.imgur.com/ty6K9RV.jpg") ;
+  /*  background-repeat: no-repeat;
+    background-size: cover;*/
+    
+    
+}
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
@@ -135,14 +159,14 @@ p{
   height: 100%;
   font-size: 1.4em;
 }
-.menu li a.search:before {
-  content: "\f002";
+.menu li a.code:before {
+  content: "\f121";
 }
 .menu li a.archive:before {
   content: "\f187";
 }
 .menu li a.pencil:before {
-  content: "\f040";
+  content: "\f07b";
 }
 .menu li a.contact:before {
   content: "\f003";
@@ -154,15 +178,15 @@ p{
   content: "\f015";
 }
 .menu li a:hover{
-  background: rgba(58, 147, 65, 0.71);
+  background: rgba(229, 148, 0, 0.4);
   color: #fff;
 }
 .menu li.current a {
-  background: rgba(58, 147, 65, 0.71);
+  background: rgba(229, 148, 0, 0.4);
   color: #fff;
 }
 .menu li a.active {
-  background: rgba(58, 147, 65, 0.71);
+  background: rgba(229, 148, 0, 0.4);
   color: #fff;
 }
 /*Arrow ->*/
@@ -179,6 +203,7 @@ p{
     position:relative;
 }
 .menu li:after{
+    color: rgba(64, 64, 64, 0.83);
     content: attr(title);
     position:absolute;
     left:5em;
@@ -188,7 +213,7 @@ p{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-transform:uppercase;
-    background:rgba(58, 147, 65, 0.71);
+    background:rgba(229, 148, 0, 0.58);
     padding:2em;
     transition: all 0.3s ease-in-out;
     visibility:hidden;
@@ -223,12 +248,14 @@ p{
 
 #card {
     float: left;
-    margin-top: 20px;
+    margin-top: 150px;
   border-radius: 3%;
+    
     margin-left: 70px;
   width: 300px;
   height: 400px;
-  background-image: linear-gradient( 191deg , #4ac1ff, #795bb0 );
+    
+  background-image: linear-gradient( 191deg , rgba(253, 253, 253, 0.4), rgba(229, 148, 0, 0.28) );
   -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
@@ -241,24 +268,37 @@ p{
 
 #image-container {
   height: 175px;
+
+  margin: 0;
+  padding: 0;
+  background-image: url(http://i.imgur.com/zcyvXS7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#image-container1 {
+  height: 175px;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   margin: 0;
   padding: 0;
-  background-image: url(http://static.giantbomb.com/uploads/square_small/12/120457/2060505-mel_gibson_look.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .txt-body {
-  padding: 5px 40px 20px 40px;
+  padding: 5px 40px 20px 30px;
 }
 .txt-body p {
   font-size: 15px;
+    font-family: Baconpig;
 }
 .txt-body h1 {
   text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 23px;
+    font-family: pigfood;
 }
 
 /*-------------*/
@@ -267,7 +307,7 @@ p{
 
 #textC{
     padding-top: 10px;
-    color: #8cc43d !important;
+    color: #ffffff !important;
 }
 .progress-wrap {
   height: 80px;
@@ -276,8 +316,9 @@ p{
 
 #progress-container {
   display: flex;
-  width: 81%;
-  margin: auto;
+  width: 100%;
+    margin-top: 730px !important;
+
 }
 #progress-container * {
   font-family: "Arial";
@@ -297,10 +338,10 @@ p{
   }
 }
 #progress-container .line {
-  width: 1530px;
-  border-bottom: 4px solid #818181;
+  width: 100%;
+  border-bottom: 4px solid #e59400;
     position: absolute;
-  margin-top: 25px;
+    margin-top:55px;
   z-index: 1000;
 }
 
@@ -316,17 +357,20 @@ p{
 #progress-container li {
   display: inline-flex;
   border: #191919 solid 4px;
-  background: rgb(191, 191, 191);
+  background: rgba(255, 165, 0, 0.21) ;
   height: 50px;
   width: 50px;
   border-radius: 100%;
+    border-bottom-left-radius: 0% !important;
+    margin-left: 8%;
+    margin-right: 8%;
   text-align: center;
   justify-content: center;
   align-items: center;
   font-weight: bold;
  /* color: #d4d4d4;*/
   font-size: 20px;
-  border: #ffffff solid 4px;
+  border: rgb(255, 165, 0)  solid 4px;
   color: #ffffff;
 }
 
