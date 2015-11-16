@@ -23,13 +23,12 @@
     font-family: Bacon !important;
 }
 
-
+.back{
+}
 html{
- background-image: url("http://i.imgur.com/ty6K9RV.jpg") ;
-  /*  background-repeat: no-repeat;
-    background-size: cover;*/
-    
-    
+
+    background-size: 300%;
+    background-repeat: no-repeat;
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
@@ -262,8 +261,20 @@ p{
     opacity: 0.9;
 }
 
-#card#1 {
-  margin-left: 50px;
+#card1 {
+  float: left;
+    margin-top: 100px;
+  border-radius: 3%;
+    
+    margin-left: 50px;
+  width: 300px;
+  height: 400px;
+    
+  background-image: linear-gradient( 191deg , rgba(253, 253, 253, 0.4), rgba(229, 148, 0, 0.28) );
+  -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+  box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+    opacity: 0.9;
 }
 
 #image-container {
@@ -278,10 +289,10 @@ p{
 
 #image-container1 {
   height: 175px;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+
   margin: 0;
   padding: 0;
+  background-image: url(http://i.imgur.com/zcyvXS7.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -381,7 +392,22 @@ p{
 }
 
 
-
+#slide1{
+    background-image: url(http://img07.deviantart.net/3301/i/2015/319/0/d/sunbeams_by_k_lao-d9gsshd.jpg);
+    background-size: cover;
+}
+#slide2{
+    background-image: url(http://i.imgur.com/ty6K9RV.jpg);
+    background-size: cover;
+}
+#slide3{
+    background-image: url(http://imgur.com/21lTyvT.jpg);
+    background-size: cover;
+}
+#slide4{
+    background-image: url(http://imgur.com/SKvOhwf.jpg);
+    background-size: cover;
+}
 
 
 
