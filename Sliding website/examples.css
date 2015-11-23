@@ -22,6 +22,20 @@
     text-align: center;
     font-family: Bacon !important;
 }
+#back{
+ background-image: linear-gradient( 191deg , rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.19) );
+    width:100px;
+    height: 50px;
+    float: right;
+    text-align: center;
+    border-bottom-left-radius: 25%;
+
+}
+#back h3{
+  margin-top: 12px;
+    margin-left: 10px;
+    color: white;
+}
 
 .back{
 }
