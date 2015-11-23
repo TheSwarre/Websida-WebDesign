@@ -17,8 +17,8 @@
     font-family: pigfood;
     src: url(roboto.bold.ttf);
 }
-#rubrik{
-    color: black;
+#rubrik h1{
+    color: #ffffff !important;
     text-align: center;
     font-family: Bacon !important;
 }
@@ -112,7 +112,7 @@ p{
 
 
 
-/* Demos Menu
+/*  Menu
  * --------------------------------------- */
  #demosMenu{
 	position:fixed;
@@ -177,15 +177,15 @@ p{
   content: "\f015";
 }
 .menu li a:hover{
-  background: rgba(229, 148, 0, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   color: #fff;
 }
 .menu li.current a {
-  background: rgba(229, 148, 0, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   color: #fff;
 }
 .menu li a.active {
-  background: rgba(229, 148, 0, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   color: #fff;
 }
 /*Arrow ->*/
@@ -212,7 +212,7 @@ p{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-transform:uppercase;
-    background:rgba(229, 148, 0, 0.58);
+    background:rgba(255, 255, 255, 0.84);
     padding:2em;
     transition: all 0.3s ease-in-out;
     visibility:hidden;
@@ -254,7 +254,7 @@ p{
   width: 300px;
   height: 400px;
     
-  background-image: linear-gradient( 191deg , rgba(253, 253, 253, 0.4), rgba(229, 148, 0, 0.28) );
+  background-image: linear-gradient( 191deg , rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.31) );
   -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
@@ -263,14 +263,14 @@ p{
 
 #card1 {
   float: left;
-    margin-top: 100px;
+    margin-top: 50px;
   border-radius: 3%;
     
-    margin-left: 50px;
+    margin-left: 70px;
   width: 300px;
-  height: 400px;
+  height: 300px;
     
-  background-image: linear-gradient( 191deg , rgba(253, 253, 253, 0.4), rgba(229, 148, 0, 0.28) );
+  background-image: linear-gradient( 191deg , rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.31) );
   -webkit-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   -moz-box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
   box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
@@ -288,7 +288,7 @@ p{
 }
 
 #image-container1 {
-  height: 175px;
+  height: 125px;
 
   margin: 0;
   padding: 0;
@@ -302,7 +302,9 @@ p{
 }
 .txt-body p {
   font-size: 15px;
-    font-family: Baconpig;
+    font-weight: 600;
+    font-family: Baconpig !importants;
+    color: #f4f4f4;
 }
 .txt-body h1 {
   text-align: center;
@@ -350,7 +352,7 @@ p{
 }
 #progress-container .line {
   width: 100%;
-  border-bottom: 4px solid #e59400;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.71);
     position: absolute;
     margin-top:55px;
   z-index: 1000;
@@ -368,11 +370,11 @@ p{
 #progress-container li {
   display: inline-flex;
   border: #191919 solid 4px;
-  background: rgba(255, 165, 0, 0.21) ;
+  background: rgba(255, 255, 255, 0.17) ;
   height: 50px;
   width: 50px;
   border-radius: 100%;
-    border-bottom-left-radius: 0% !important;
+    border-bottom-left-radius: 100% !important;
     margin-left: 8%;
     margin-right: 8%;
   text-align: center;
@@ -381,7 +383,7 @@ p{
   font-weight: bold;
  /* color: #d4d4d4;*/
   font-size: 20px;
-  border: rgb(255, 165, 0)  solid 4px;
+  border: rgb(255, 255, 255)  solid 4px;
   color: #ffffff;
 }
 
@@ -393,19 +395,23 @@ p{
 
 
 #slide1{
-    background-image: url(http://img07.deviantart.net/3301/i/2015/319/0/d/sunbeams_by_k_lao-d9gsshd.jpg);
+    background-image: url("bilder/GGBG_01.jpg");
     background-size: cover;
 }
 #slide2{
-    background-image: url(http://i.imgur.com/ty6K9RV.jpg);
+    background-image: url("bilder/GGBG_02.jpg");
     background-size: cover;
 }
 #slide3{
-    background-image: url(http://imgur.com/21lTyvT.jpg);
+    background-image: url("bilder/GGBG_03.jpg");
     background-size: cover;
 }
 #slide4{
-    background-image: url(http://imgur.com/SKvOhwf.jpg);
+    background-image: url("bilder/GGBG_04.jpg");
+    background-size: cover;
+}
+#slide5{
+    background-image: url("bilder/GGBG_05.jpg");
     background-size: cover;
 }
  
