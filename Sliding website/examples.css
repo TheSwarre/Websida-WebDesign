@@ -252,12 +252,13 @@ p{
 
 
 .box2{
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.46);
   float: left;
   height: 50%;
   position: relative;
   width: 30%;
   transition: background 0.3s ease-out;
+    overflow: auto;
 }
 
 .box2 p{
@@ -358,10 +359,11 @@ p{
   position: relative;
   width: 24%;
   transition: background 0.3s ease-out;
+
 }
 
 .box1 p{
-  color: #eee;
+  color: #ffffff;
   font-size: 15px;
     width: 94.5%;
     margin-top: 110px;
@@ -373,7 +375,7 @@ p{
 }
 
 .box1 h1{
-     color: #eee;
+     color: #ffffff;
     width: 94.5%;
   padding: 12px;
   opacity: 1;
@@ -493,6 +495,7 @@ p{
 
 
 
+
 /*
 #slide1{
     background-image: url("bilder/BG_01.jpg");
@@ -501,11 +504,10 @@ p{
 #slide2{
     background-image: url("bilder/BG_02.jpg");
     background-size: cover;
-}
+}*/
 #slide3{
-    background-image: url("bilder/BG_03.jpg");
-    background-size: cover;
-}
+    background-image: url("BILD.jpg");
+}/*
 #slide4{
     background-image: url("bilder/GGBG_04.jpg");
     background-size: cover;
@@ -519,10 +521,76 @@ p{
 
 
 
+*/
+.box69{
+  background: rgba(0, 0, 0, 0.42);
+  float: right;
+  height: 100%;
+  position: fixed;
+  width: 5%;
+    margin-left:15%;
+  transition: background 0.3s ease-out;
+}
+.box69 p{
+  color: #eee;
+  font-size: 15px;
+    width: 94.5%;
+    margin-top: 180px;
+  padding: 12px;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+    background-color:rgba(127, 255, 212, 0.47);
+        
+        top: -200px;
+}
 
+.menu
+.box69 h1{
+     color: #eee;
+    width: 94.5%;
+  padding: 12px;
+  opacity: 1;
+  text-align: center;
+    font-family: Sfposter;
+    font-weight: 900;
+  position: absolute;
+  top: 0;
+    margin-top: 40%;
+}
+.box69 img{
+  height: 100%;
+  width: 100%;
+  opacity: 1; 
+  display: block;
+  transition: cubic-bezier(1.000, -0.530, 0.405, 1.425);
+}
+.box69:hover img{
+  opacity: 0.5;
+}
+/* box colors */
+.box69:hover h1{
+    top: -15%;
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+.box69:hover p{
+    opacity: 1;
+    top: 0;
+  transition: 1s;
+}
 
-
-
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    /*
 
 
 
@@ -789,4 +857,6 @@ p{
     font-size: 23px;
     font-family: pigfood;
     color: white;
-}*/
+}*/*/
+    
+    
