@@ -1,5 +1,7 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
+
+
 @CHARSET "ISO-8859-1";
 /* Reset CSS
  * --------------------------------------- */
@@ -21,6 +23,12 @@
     font-family: Sfposter;
     src: url(SFMoviePoster.ttf);
 }
+
+@font-face {
+    font-family: mainfont;
+    src: url(Multicolore.otf);
+}
+
 #rubrik h1{
     color: #000000 !important;
     text-align: center;
@@ -280,11 +288,12 @@ p{
 .box2 h1{
      color: #eee;
     width: 94.5%;
+    font-size: 80px;;
   padding: 12px;
   opacity: 1;
   text-align: center;
-    font-family: Sfposter;
-     font-weight: 900;
+    font-family: mainfont;
+     font-weight: 100;
     color: #ffffff;
   position: absolute;
   top: 0;  
@@ -359,6 +368,7 @@ p{
   position: relative;
   width: 24%;
   transition: background 0.3s ease-out;
+    font-size: 1px;
 
 }
 
@@ -367,7 +377,7 @@ p{
   font-size: 15px;
     width: 94.5%;
     margin-top: 110px;
-  padding: 12px;
+  padding: 5px;
   opacity: 0;
   text-align: center;
   position: absolute;
@@ -375,14 +385,15 @@ p{
 }
 
 .box1 h1{
+    font-size: 5px;
      color: #ffffff;
     width: 94.5%;
   padding: 12px;
   opacity: 1;
     text-align: center;
-    font-family: Sfposter;
+    font-family: mainfont;
     font-weight: 900;
-    font-size: 250px;
+    font-size: 80px;
     color: black;
   position: absolute;
   top: 0;  
@@ -442,9 +453,10 @@ p{
      color: #eee;
     width: 94.5%;
   padding: 12px;
+    font-size: 80px;
   opacity: 1;
   text-align: center;
-    font-family: Sfposter;
+    font-family: mainfont;
     font-weight: 900;
   position: absolute;
   top: 0;
@@ -504,7 +516,7 @@ p{
 #slide2{
     background-image: url("bilder/BG_02.jpg");
     background-size: cover;
-}*/
+}
 #slide3{
     background-image: url("BILD.jpg");
 }/*
@@ -548,12 +560,13 @@ p{
 
 .menu
 .box69 h1{
+   font-size:  80px;
      color: #eee;
     width: 94.5%;
   padding: 12px;
   opacity: 1;
   text-align: center;
-    font-family: Sfposter;
+    font-family: mainfont;
     font-weight: 900;
   position: absolute;
   top: 0;
