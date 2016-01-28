@@ -754,80 +754,63 @@ nav.main-menu li.active>a,
 
 
 
+/*  Below is the css for the popups   */
 
 
 
-
-
-
-
-
-
-
-
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 70px auto;
+    .popup {
+        visibility: hidden;
+        position: absolute ;
+        top: 25%;
+        left: 25%;
+        width: 40%;
+        height: 50%;
+        background-color: white;
+        z-index:1002;
+        overflow: hidden;
+        transition: 
+        margin: 70px auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
-  position: relative;
-  transition: all 5s ease-in-out;
+        
+    }
+
+#exitButton{
+    padding-left: 20px;
+    color: #000000;
+    height: 20px;
 }
 
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
-  position: absolute;
+#exitButton button{
+   position: absolute;
   top: 20px;
   right: 30px;
-  transition: all 200ms;
   font-size: 30px;
+
   font-weight: bold;
   text-decoration: none;
   color: #333;
+    outline: none;
+    border: none;
+    background-color: white;
 }
-.popup .close:hover {
-  color: #06D85F;
-}
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
+#exitButton button:hover{
+    color: #ff0000;
+  
 }
 
 
+#popupContent{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #555555;
+}
 
-    
-    /*
+
+
 
 
 
