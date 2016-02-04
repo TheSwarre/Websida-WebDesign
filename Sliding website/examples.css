@@ -645,12 +645,13 @@ nav.main-menu.expanded {
   z-index: 1000;
 }
 .main-menu>ul {
-  margin: 7px 0;
+  margin: 8px 0;
 }
 .main-menu li {
   position: relative;
   display: block;
   width: 260px;
+    padding-bottom: 10px;
 }
 .main-menu li>a {
   position: relative;
@@ -658,6 +659,7 @@ nav.main-menu.expanded {
   border-collapse: collapse;
   border-spacing: 0;
   color: #ffffff;
+    padding: 20px;
   font-family: arial;
   font-size: 14px;
   text-decoration: none;
@@ -761,20 +763,50 @@ nav.main-menu li.active>a,
     .popup {
         visibility: hidden;
         position: absolute ;
-        top: 25%;
+        top: 15%;
         left: 25%;
-        width: 40%;
-        height: 50%;
-        background-color: white;
+        width: 55%;
+        height: 65%;
+        background-image: url(bilder/Namnl%C3%B6st-2.png);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        
+        back
         z-index:1002;
         overflow: hidden;
         transition: 
         margin: 70px auto;
   padding: 20px;
-  background: #fff;
   border-radius: 5px;
         
     }
+
+#popup1 {
+        background-image: url(bilder/Namnl%C3%B6st-3.png);
+        background-repeat: no-repeat;
+        background-color: #fff;
+
+        
+    }
+#popup3{
+       background-image: url(bilder/Namnl%C3%B6st-4.png);
+        background-repeat: no-repeat;
+        background-color: #fff;
+}
+#popup4{
+       background-image: url(bilder/Namnl%C3%B6st-5.png);
+        background-repeat: no-repeat;
+        background-color: #fff;
+}
+.popup h2{
+    color: darkslategray;
+}
+.popup p{
+    float: left;
+}
+.popup img{
+    float: left;
+}
 
 #exitButton{
     padding-left: 20px;
@@ -784,16 +816,16 @@ nav.main-menu li.active>a,
 
 #exitButton button{
    position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
+  top: 0px;
+  right: 0px;
+  font-size: 70px;
 
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #343434;
     outline: none;
     border: none;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 #exitButton button:hover{
     color: #ff0000;
@@ -808,7 +840,20 @@ nav.main-menu li.active>a,
     padding-bottom: 20px;
     color: #555555;
 }
+#popupContent h1{
+    color: aliceblue !important;   
+}
 
+#popupContent p{
+     float: left;  
+}
+
+#popupContent img{
+    float: left;
+}
+.white h2{
+    color: white !important;
+}
 
 
 
